@@ -4,28 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e79b49ed-d512-413a-97ab-a060169eecfe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/Main.java" afterDir="false" />
+    <list default="true" id="e79b49ed-d512-413a-97ab-a060169eecfe" name="Changes" comment="AddiAdding functional folders, cosmetic changes to the code appearance functional folders, cosmetic changes to the code appearance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SimpleDrawingApp2/cs/vsu/ru_taranovskaya_ps/Bird.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SimpleDrawingApp2/cs/vsu/ru_taranovskaya_ps/Cloud.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SimpleDrawingApp2/cs/vsu/ru_taranovskaya_ps/Drawing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SimpleDrawingApp2/cs/vsu/ru_taranovskaya_ps/Flower.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SimpleDrawingApp2/cs/vsu/ru_taranovskaya_ps/FlowerField$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SimpleDrawingApp2/cs/vsu/ru_taranovskaya_ps/FlowerField$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SimpleDrawingApp2/cs/vsu/ru_taranovskaya_ps/FlowerField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SimpleDrawingApp2/cs/vsu/ru_taranovskaya_ps/Grass$GrassBlade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SimpleDrawingApp2/cs/vsu/ru_taranovskaya_ps/Grass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SimpleDrawingApp2/cs/vsu/ru_taranovskaya_ps/MainWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SimpleDrawingApp2/cs/vsu/ru_taranovskaya_ps/Sun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/DrawObjects/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/Cloud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/DrawObjects/Cloud.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/Drawing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/DrawObjects/IDrawing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/DrawObjects/Flower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/FlowerField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/DrawObjects/DrawPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/Grass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/DrawObjects/Grass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/View/MainWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/Sun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/DrawObjects/Sun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/DrawObjects/DrawPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/DrawObjects/DrawPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/View/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs/vsu/ru_taranovskaya_ps/View/MainWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +26,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;delzhan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/delzhan/FlowerField&quot;,
+    &quot;accountId&quot;: &quot;cd2803ce-dc29-4516-b97c-7cd74fe3ace4&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -51,20 +49,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FlowerField.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MainWindow.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Полина/Downloads/CGVSU-main/CGVSU-main/Task1/SimpleDrawingApp2",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FlowerField.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainWindow.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Полина/Downloads/CGVSU-main/CGVSU-main/Task1/SimpleDrawingApp2&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cs.vsu.ru_taranovskaya_ps" />
@@ -79,6 +77,19 @@
       <option name="presentableId" value="Default" />
       <updated>1759681703839</updated>
     </task>
+    <task id="LOCAL-00001" summary="AddiAdding functional folders, cosmetic changes to the code appearance functional folders, cosmetic changes to the code appearance">
+      <option name="closed" value="true" />
+      <created>1760971739703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1760971739703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="AddiAdding functional folders, cosmetic changes to the code appearance functional folders, cosmetic changes to the code appearance" />
+    <option name="LAST_COMMIT_MESSAGE" value="AddiAdding functional folders, cosmetic changes to the code appearance functional folders, cosmetic changes to the code appearance" />
   </component>
 </project>

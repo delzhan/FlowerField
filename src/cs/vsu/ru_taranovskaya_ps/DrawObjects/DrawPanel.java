@@ -2,13 +2,15 @@ package cs.vsu.ru_taranovskaya_ps.DrawObjects;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class DrawPanel extends JPanel {
+public class DrawPanel extends JPanel implements ActionListener {
     private List<Flower> flowers;
     private List<Cloud> clouds;
     private List<Bird> birds;
@@ -61,20 +63,23 @@ public class DrawPanel extends JPanel {
     }
 
     private void startAnimation() {
-        animationTimer = new Timer(30, e -> {
-            for (Cloud cloud : clouds) {
-                cloud.update();
-            }
-
-            for (Bird bird : birds) {
-                bird.update();
-            }
-
-            sun.update();
-            grass.update();
-            repaint();
-        });
+        animationTimer = new Timer(30, this);
         animationTimer.start();
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        for (Cloud cloud : clouds) {
+            cloud.update();
+        }
+
+        for (Bird bird : birds) {
+            bird.update();
+        }
+
+        sun.update();
+        grass.update();
+        repaint();
     }
 
     private void addMouseListeners() {
@@ -166,5 +171,4 @@ public class DrawPanel extends JPanel {
             flower.draw(g2d);
         }
     }
-
 }

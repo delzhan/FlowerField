@@ -3,19 +3,18 @@ package cs.vsu.ru_taranovskaya_ps.View;
 import cs.vsu.ru_taranovskaya_ps.DrawObjects.DrawPanel;
 
 import javax.swing.*;
-import java.awt.*;
 
 public class MainWindow extends JFrame {
-    private final DrawPanel panel;
-
-    public MainWindow() throws HeadlessException {
-        setTitle("Цветочное поле с птичками и облаками");
+    public MainWindow() {
+        setTitle("Цветочное поле");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setResizable(false);
 
-        panel = new DrawPanel();
-        this.add(panel);
+        DrawPanel drawPanel = new DrawPanel();
+        add(drawPanel);
 
         pack();
         setLocationRelativeTo(null);
+        setVisible(true);
     }
 }
