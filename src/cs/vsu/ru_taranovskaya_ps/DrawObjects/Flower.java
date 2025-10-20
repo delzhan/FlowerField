@@ -1,10 +1,10 @@
-package cs.vsu.ru_taranovskaya_ps;
+package cs.vsu.ru_taranovskaya_ps.DrawObjects;
 
 import java.awt.*;
 import java.awt.geom.Ellipse2D;
 import java.util.Random;
 
-public class Flower implements Drawing {
+public class Flower implements IDrawing {
     private int x, y;
     private Color color;
     private boolean dragging;

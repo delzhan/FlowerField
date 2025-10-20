@@ -1,4 +1,4 @@
-package cs.vsu.ru_taranovskaya_ps;
+package cs.vsu.ru_taranovskaya_ps.DrawObjects;
 
 import javax.swing.*;
 import java.awt.*;
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class FlowerField extends JPanel {
+public class DrawPanel extends JPanel {
     private List<Flower> flowers;
     private List<Cloud> clouds;
     private List<Bird> birds;
@@ -17,7 +17,7 @@ public class FlowerField extends JPanel {
     private Random random;
     private Timer animationTimer;
 
-    public FlowerField() {
+    public DrawPanel() {
         flowers = new ArrayList<>();
         clouds = new ArrayList<>();
         birds = new ArrayList<>();
@@ -81,7 +81,7 @@ public class FlowerField extends JPanel {
         addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                FlowerField outer = FlowerField.this;
+                DrawPanel outer = DrawPanel.this;
 
                 if (SwingUtilities.isLeftMouseButton(e)) {
                     if (e.getY() < 350) {
@@ -167,10 +167,4 @@ public class FlowerField extends JPanel {
         }
     }
 
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            MainWindow mainWindow = new MainWindow();
-            mainWindow.setVisible(true);
-        });
-    }
 }

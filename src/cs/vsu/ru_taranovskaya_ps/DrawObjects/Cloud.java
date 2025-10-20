@@ -1,10 +1,10 @@
-package cs.vsu.ru_taranovskaya_ps;
+package cs.vsu.ru_taranovskaya_ps.DrawObjects;
 
 import javax.swing.*;
 import java.awt.*;
 import java.util.Random;
 
-public class Cloud implements Drawing {
+public class Cloud implements IDrawing {
     private float x, y;
     private float speed;
     private float size;

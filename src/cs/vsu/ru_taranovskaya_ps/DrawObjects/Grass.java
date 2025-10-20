@@ -1,11 +1,11 @@
-package cs.vsu.ru_taranovskaya_ps;
+package cs.vsu.ru_taranovskaya_ps.DrawObjects;
 
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class Grass implements Drawing {
+public class Grass implements IDrawing {
     private List<GrassBlade> grassBlades;
     private float windAngle = 0;
     private Random random;

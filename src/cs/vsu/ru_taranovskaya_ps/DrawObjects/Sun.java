@@ -1,7 +1,8 @@
-package cs.vsu.ru_taranovskaya_ps;
+package cs.vsu.ru_taranovskaya_ps.DrawObjects;
+
 import java.awt.*;
 
-    public class Sun implements Drawing {
+    public class Sun implements IDrawing {
         private int centerX, centerY;
         private float rayAngle = 0;
 
